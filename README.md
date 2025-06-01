@@ -30,17 +30,17 @@ The Agent workflow follows a user-provided text input asking to perform 4 action
 
 ## Main Project Structure
 Frontier-Agent-TakeHome/
-├── agent.py                 # Main entry point for the agent workflow
-├── instruction_parser.py    # Parses user-provided instructions into structured actions
-├── Controller.py            # Orchestrates the execution of parsed instructions
-├── web_scraper.py           # Handles web scraping tasks (fetching and parsing web pages)
-├── items_extractor.py       # Extracts specific data (titles, authors, links, abstracts) from web pages
-├── abstract_summariser.py   # Summarises abstracts using AI models (Google Gemini or Llama)
-├── Output_Structurer.py     # Formats and structures the extracted data into JSON
-├── README.md                # Project documentation and usage instructions
-├── requirements.txt         # List of Python dependencies required for the project
-├── agent.log                # Log file for debugging and tracking the agent's execution
-└── test_instructions.txt           # Sample input file for testing the agent
+├── agent.py                 # Main entry point for the agent workflow  
+├── instruction_parser.py    # Parses user-provided instructions into structured actions  
+├── Controller.py            # Orchestrates the execution of parsed instructions  
+├── web_scraper.py           # Handles web scraping tasks (fetching and parsing web pages)  
+├── items_extractor.py       # Extracts specific data (titles, authors, links, abstracts) from web pages  
+├── abstract_summariser.py   # Summarises abstracts using AI models (Google Gemini or Llama)  
+├── Output_Structurer.py     # Formats and structures the extracted data into JSON  
+├── README.md                # Project documentation and usage instructions  
+├── requirements.txt         # List of Python dependencies required for the project  
+├── agent.log                # Log file for debugging and tracking the agent's execution  
+└── test_instructions.txt           # Sample input file for testing the agent  
 
 
 ## Installation
