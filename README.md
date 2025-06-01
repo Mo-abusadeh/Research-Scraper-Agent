@@ -14,22 +14,22 @@ The Agent workflow follows a user-provided text input asking to perform 4 action
 5. Return structured JSON output
 
 ## System Design
-┌─────────────────────┐
-│ Instruction Parser  │
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐      ┌─────────────────────┐
-│     Controller      │<─────│   Action Executor   │
-└─────────┬───────────┘      │                     │
-          │                  │ - Web Scraper       │
-          ▼                  │ - Data Extractor    │
-┌─────────────────────┐      │ - AI Summariser     │
-│  Output Formatter   │      └─────────────────────┘
-└─────────────────────┘
-
+┌─────────────────────┐  
+│ Instruction Parser  │   
+└─────────┬───────────┘  
+          │  
+          ▼  
+┌─────────────────────┐      ┌─────────────────────┐  
+│     Controller      │<─────│   Action Executor   │  
+└─────────┬───────────┘      │                     │  
+          │                  │ - Web Scraper       │  
+          ▼                  │ - Data Extractor    │  
+┌─────────────────────┐      │ - AI Summariser     │  
+│  Output Formatter   │      └─────────────────────┘  
+└─────────────────────┘  
+  
 ## Main Project Structure
-Frontier-Agent-TakeHome/
+Frontier-Agent-TakeHome/  
 ├── agent.py                 # Main entry point for the agent workflow  
 ├── instruction_parser.py    # Parses user-provided instructions into structured actions  
 ├── Controller.py            # Orchestrates the execution of parsed instructions  
