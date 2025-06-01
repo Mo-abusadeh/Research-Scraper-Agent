@@ -1,6 +1,4 @@
-# Agent: Frontier-Agent-TakeHome
-## Mohammed AbuSadeh - Submission for the Frontier Health Take Home Test (Applied AI Engineer)
-
+# Agent: Research-Scraper-Agent
 This project implements an Agentic workflow by executing a user-provided sequential list of tasks. 
 
 
@@ -12,24 +10,9 @@ The Agent workflow follows a user-provided text input asking to perform 4 action
 3. Extract specific information (titles, authors, links, abstracts)
 4. Summarise content using AI models (Google's Gemini or local Llama model)
 5. Return structured JSON output
-
-## System Design
-┌─────────────────────┐  
-│ Instruction Parser  │   
-└─────────┬───────────┘  
-          │  
-          ▼  
-┌─────────────────────┐      ┌─────────────────────┐  
-│     Controller      │<─────│   Action Executor   │  
-└─────────┬───────────┘      │                     │  
-          │                  │ - Web Scraper       │  
-          ▼                  │ - Data Extractor    │  
-┌─────────────────────┐      │ - AI Summariser     │  
-│  Output Formatter   │      └─────────────────────┘  
-└─────────────────────┘  
   
 ## Main Project Structure
-Frontier-Agent-TakeHome/  
+Research-Scraper-Agent/  
 ├── agent.py                 # Main entry point for the agent workflow  
 ├── instruction_parser.py    # Parses user-provided instructions into structured actions  
 ├── Controller.py            # Orchestrates the execution of parsed instructions  
@@ -51,12 +34,12 @@ Frontier-Agent-TakeHome/
 ### Setup
 1. Clone the repository from GitHub:
 ```bash
-git clone git@github.com:Mo-abusadeh/Frontier-Agent-TakeHome.git
+git clone git@github.com:Mo-abusadeh/Research-Scraper-Agent.git
 ```
 
 2. Navigate to the cloned repository:
 ```bash
-cd Frontier-Agent-TakeHome
+cd Research-Scraper-Agent
 ```
 
 3. Install required dependencies
