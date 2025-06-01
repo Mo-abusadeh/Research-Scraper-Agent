@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+agent_loop.egg-info/PKG-INFO
+agent_loop.egg-info/SOURCES.txt
+agent_loop.egg-info/dependency_links.txt
+agent_loop.egg-info/entry_points.txt
+agent_loop.egg-info/requires.txt
+agent_loop.egg-info/top_level.txt
+tests/test_abstract_summariser.py
+tests/test_agent.py
+tests/test_controller.py
+tests/test_instruction_parser.py
+tests/test_items_extractor.py
+tests/test_output_structurer.py

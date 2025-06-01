@@ -1,0 +1,321 @@
+2025-03-23 15:16:43,937 - root - INFO - Initialised Gemini API with key
+2025-03-23 15:16:43,937 - root - INFO - Running Agent to follow .\test_instructions.txt
+2025-03-23 15:16:43,939 - root - INFO - Agent: Parsed the instructions file successfully
+2025-03-23 15:16:43,939 - root - INFO - Executing 4 actions
+2025-03-23 15:16:43,939 - root - INFO - Executing action of type: goto
+2025-03-23 15:16:43,939 - root - INFO - Fetching and Parsing content from the url: {url}
+2025-03-23 15:16:44,346 - root - INFO - Executing action of type: extract
+2025-03-23 15:16:44,346 - root - INFO - Extracting items: ['title', 'authors', 'links', 'abstracts']
+2025-03-23 15:16:44,348 - root - INFO - Successfully Exctracted 22 titles
+2025-03-23 15:16:44,352 - root - INFO - Successfully extracted authors names for 22 papers
+2025-03-23 15:16:44,356 - root - INFO - Successfully extracted 22 links
+2025-03-23 15:16:44,359 - root - INFO - Successfully extracted 22 abstracts
+2025-03-23 15:16:44,359 - root - INFO - Executing action of type: summarise
+2025-03-23 15:16:44,359 - root - INFO - Summarising 22 abstracts
+2025-03-23 15:16:44,360 - root - INFO - summarising abstract 1/22
+2025-03-23 15:16:44,360 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:44,360 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:44,360 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:45,567 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:45,569 - root - INFO - summarising abstract 2/22
+2025-03-23 15:16:45,569 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:45,569 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:45,569 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:46,765 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:46,766 - root - INFO - summarising abstract 3/22
+2025-03-23 15:16:46,766 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:46,766 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:46,766 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:47,775 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:47,776 - root - INFO - summarising abstract 4/22
+2025-03-23 15:16:47,777 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:47,779 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:47,779 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:48,777 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:48,777 - root - INFO - summarising abstract 5/22
+2025-03-23 15:16:48,777 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:48,779 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:48,779 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:49,842 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:49,842 - root - INFO - summarising abstract 6/22
+2025-03-23 15:16:49,842 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:49,844 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:49,845 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:52,675 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:52,677 - root - INFO - summarising abstract 7/22
+2025-03-23 15:16:52,677 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:52,677 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:52,677 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:53,757 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:53,760 - root - INFO - summarising abstract 8/22
+2025-03-23 15:16:53,760 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:53,760 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:53,760 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:55,130 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:55,130 - root - INFO - summarising abstract 9/22
+2025-03-23 15:16:55,130 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:55,130 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:55,132 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:56,161 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:56,161 - root - INFO - summarising abstract 10/22
+2025-03-23 15:16:56,161 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:56,163 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:56,163 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:56,980 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:56,980 - root - INFO - summarising abstract 11/22
+2025-03-23 15:16:56,980 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:56,980 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:56,985 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:58,234 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:58,234 - root - INFO - summarising abstract 12/22
+2025-03-23 15:16:58,235 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:58,236 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:58,236 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:16:59,313 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:16:59,313 - root - INFO - summarising abstract 13/22
+2025-03-23 15:16:59,313 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:16:59,313 - root - INFO - Creating Gemini model instance
+2025-03-23 15:16:59,315 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:00,451 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:00,451 - root - INFO - summarising abstract 14/22
+2025-03-23 15:17:00,451 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:00,453 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:00,453 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:01,388 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:01,390 - root - INFO - summarising abstract 15/22
+2025-03-23 15:17:01,390 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:01,390 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:01,390 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:02,295 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:02,296 - root - INFO - summarising abstract 16/22
+2025-03-23 15:17:02,296 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:02,296 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:02,297 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:03,667 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:03,669 - root - INFO - summarising abstract 17/22
+2025-03-23 15:17:03,669 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:03,669 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:03,669 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:04,892 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:04,894 - root - INFO - summarising abstract 18/22
+2025-03-23 15:17:04,895 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:04,895 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:04,896 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:05,647 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:05,655 - root - INFO - summarising abstract 19/22
+2025-03-23 15:17:05,655 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:05,655 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:05,655 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:06,973 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:06,973 - root - INFO - summarising abstract 20/22
+2025-03-23 15:17:06,973 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:06,973 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:06,975 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:07,927 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:07,927 - root - INFO - summarising abstract 21/22
+2025-03-23 15:17:07,935 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:07,935 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:07,935 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:08,945 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:08,945 - root - INFO - summarising abstract 22/22
+2025-03-23 15:17:08,947 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 15:17:08,947 - root - INFO - Creating Gemini model instance
+2025-03-23 15:17:08,947 - root - INFO - Sending prompt to Gemini API
+2025-03-23 15:17:09,875 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 15:17:09,875 - root - INFO - successfully summarised 22 abstracts
+2025-03-23 15:17:09,875 - root - INFO - Executing action of type: Return
+2025-03-23 15:17:09,877 - root - INFO - Starting Output Structuring...
+2025-03-23 15:17:09,877 - root - INFO - Agent: Executed actions successfully
+2025-03-23 17:56:20,519 - root - INFO - Initialised Gemini API with key
+2025-03-23 17:56:20,519 - root - INFO - Running Agent to follow test_instructions.txt
+2025-03-23 17:56:20,519 - root - INFO - Agent: Parsed the instructions file successfully
+2025-03-23 17:56:20,519 - root - INFO - Executing 4 actions
+2025-03-23 17:56:20,519 - root - INFO - Executing action of type: goto
+2025-03-23 17:56:20,519 - root - INFO - Fetching and Parsing content from the url: {url}
+2025-03-23 17:56:20,935 - root - INFO - Executing action of type: extract
+2025-03-23 17:56:20,935 - root - INFO - Extracting items: ['title', 'authors', 'links', 'abstracts']
+2025-03-23 17:56:20,938 - root - INFO - Successfully Exctracted 22 titles
+2025-03-23 17:56:20,940 - root - INFO - Successfully extracted authors names for 22 papers
+2025-03-23 17:56:20,940 - root - INFO - Successfully extracted 22 links
+2025-03-23 17:56:20,940 - root - INFO - Successfully extracted 22 abstracts
+2025-03-23 17:56:20,940 - root - INFO - Executing action of type: summarise
+2025-03-23 17:56:20,940 - root - INFO - Summarising 22 abstracts
+2025-03-23 17:56:20,940 - root - INFO - summarising abstract 1/22
+2025-03-23 17:56:20,948 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:20,948 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:20,948 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:22,189 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:22,189 - root - INFO - summarising abstract 2/22
+2025-03-23 17:56:22,189 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:22,189 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:22,189 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:23,008 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:23,008 - root - INFO - summarising abstract 3/22
+2025-03-23 17:56:23,016 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:23,016 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:23,018 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:24,175 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:24,177 - root - INFO - summarising abstract 4/22
+2025-03-23 17:56:24,177 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:24,177 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:24,178 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:25,418 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:25,418 - root - INFO - summarising abstract 5/22
+2025-03-23 17:56:25,418 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:25,418 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:25,418 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:26,423 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:26,425 - root - INFO - summarising abstract 6/22
+2025-03-23 17:56:26,425 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:26,425 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:26,425 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:27,501 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:27,501 - root - INFO - summarising abstract 7/22
+2025-03-23 17:56:27,503 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:27,503 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:27,503 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:28,508 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:28,508 - root - INFO - summarising abstract 8/22
+2025-03-23 17:56:28,508 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:28,508 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:28,508 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:29,714 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:29,714 - root - INFO - summarising abstract 9/22
+2025-03-23 17:56:29,714 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:29,718 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:29,718 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:30,817 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:30,817 - root - INFO - summarising abstract 10/22
+2025-03-23 17:56:30,817 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:30,817 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:30,817 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:31,778 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:31,778 - root - INFO - summarising abstract 11/22
+2025-03-23 17:56:31,778 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:31,789 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:31,789 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:32,848 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:32,849 - root - INFO - summarising abstract 12/22
+2025-03-23 17:56:32,849 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:32,849 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:32,850 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:33,779 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:33,779 - root - INFO - summarising abstract 13/22
+2025-03-23 17:56:33,779 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:33,779 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:33,779 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:34,713 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:34,713 - root - INFO - summarising abstract 14/22
+2025-03-23 17:56:34,713 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:34,713 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:34,713 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:35,819 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:35,819 - root - INFO - summarising abstract 15/22
+2025-03-23 17:56:35,819 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:35,819 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:35,819 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:36,898 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:36,898 - root - INFO - summarising abstract 16/22
+2025-03-23 17:56:36,898 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:36,908 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:36,908 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:37,891 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:37,891 - root - INFO - summarising abstract 17/22
+2025-03-23 17:56:37,892 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:37,892 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:37,892 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:38,794 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:38,794 - root - INFO - summarising abstract 18/22
+2025-03-23 17:56:38,794 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:38,794 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:38,794 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:39,842 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:39,842 - root - INFO - summarising abstract 19/22
+2025-03-23 17:56:39,842 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:39,842 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:39,845 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:41,048 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:41,048 - root - INFO - summarising abstract 20/22
+2025-03-23 17:56:41,048 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:41,048 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:41,050 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:42,108 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:42,108 - root - INFO - summarising abstract 21/22
+2025-03-23 17:56:42,108 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:42,108 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:42,108 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:43,029 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:43,030 - root - INFO - summarising abstract 22/22
+2025-03-23 17:56:43,030 - root - INFO - Attempting to use Gemini model for summarization
+2025-03-23 17:56:43,030 - root - INFO - Creating Gemini model instance
+2025-03-23 17:56:43,030 - root - INFO - Sending prompt to Gemini API
+2025-03-23 17:56:43,934 - root - INFO - Summary generated successfully using Gemini
+2025-03-23 17:56:43,934 - root - INFO - successfully summarised 22 abstracts
+2025-03-23 17:56:43,934 - root - INFO - Executing action of type: Return
+2025-03-23 17:56:43,934 - root - INFO - Starting Output Structuring...
+2025-03-23 17:56:43,934 - root - INFO - Agent: Executed actions successfully
+2025-03-23 17:57:42,310 - root - WARNING - No API key was found, will use the fallback local model instead (llama-2-7b-chat.Q4_K_M.gguf)
+2025-03-23 17:57:42,528 - root - INFO - Downloading Llama model from HuggingFace (this may take a few minutes)
+2025-03-23 17:59:32,479 - root - INFO - Initialising Llama model from models/llama-2-7b-chat.Q4_K_M.gguf
+2025-03-23 17:59:32,481 - root - WARNING - Llama model failed to be initialised, Error: Model path does not exist: models/llama-2-7b-chat.Q4_K_M.gguf
+2025-03-23 17:59:32,481 - root - INFO - Running Agent to follow test_instructions.txt
+2025-03-23 17:59:32,482 - root - INFO - Agent: Parsed the instructions file successfully
+2025-03-23 17:59:32,482 - root - INFO - Executing 4 actions
+2025-03-23 17:59:32,482 - root - INFO - Executing action of type: goto
+2025-03-23 17:59:32,482 - root - INFO - Fetching and Parsing content from the url: {url}
+2025-03-23 17:59:32,788 - root - INFO - Executing action of type: extract
+2025-03-23 17:59:32,788 - root - INFO - Extracting items: ['title', 'authors', 'links', 'abstracts']
+2025-03-23 17:59:32,788 - root - INFO - Successfully Exctracted 22 titles
+2025-03-23 17:59:32,788 - root - INFO - Successfully extracted authors names for 22 papers
+2025-03-23 17:59:32,798 - root - INFO - Successfully extracted 22 links
+2025-03-23 17:59:32,798 - root - INFO - Successfully extracted 22 abstracts
+2025-03-23 17:59:32,798 - root - INFO - Executing action of type: summarise
+2025-03-23 17:59:32,798 - root - INFO - Summarising 22 abstracts
+2025-03-23 17:59:32,798 - root - INFO - summarising abstract 1/22
+2025-03-23 17:59:32,798 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,798 - root - INFO - summarising abstract 2/22
+2025-03-23 17:59:32,802 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,802 - root - INFO - summarising abstract 3/22
+2025-03-23 17:59:32,802 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,803 - root - INFO - summarising abstract 4/22
+2025-03-23 17:59:32,803 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,803 - root - INFO - summarising abstract 5/22
+2025-03-23 17:59:32,804 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,804 - root - INFO - summarising abstract 6/22
+2025-03-23 17:59:32,804 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,804 - root - INFO - summarising abstract 7/22
+2025-03-23 17:59:32,804 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,804 - root - INFO - summarising abstract 8/22
+2025-03-23 17:59:32,804 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,804 - root - INFO - summarising abstract 9/22
+2025-03-23 17:59:32,804 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,804 - root - INFO - summarising abstract 10/22
+2025-03-23 17:59:32,804 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,805 - root - INFO - summarising abstract 11/22
+2025-03-23 17:59:32,805 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,806 - root - INFO - summarising abstract 12/22
+2025-03-23 17:59:32,806 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,806 - root - INFO - summarising abstract 13/22
+2025-03-23 17:59:32,806 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,806 - root - INFO - summarising abstract 14/22
+2025-03-23 17:59:32,806 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,806 - root - INFO - summarising abstract 15/22
+2025-03-23 17:59:32,806 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,807 - root - INFO - summarising abstract 16/22
+2025-03-23 17:59:32,807 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,807 - root - INFO - summarising abstract 17/22
+2025-03-23 17:59:32,808 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,808 - root - INFO - summarising abstract 18/22
+2025-03-23 17:59:32,808 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,808 - root - INFO - summarising abstract 19/22
+2025-03-23 17:59:32,808 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,808 - root - INFO - summarising abstract 20/22
+2025-03-23 17:59:32,808 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,808 - root - INFO - summarising abstract 21/22
+2025-03-23 17:59:32,808 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,808 - root - INFO - summarising abstract 22/22
+2025-03-23 17:59:32,808 - root - INFO - Falling back to simple extraction method - neither Gemini nor Llama models were able to generate a summary
+2025-03-23 17:59:32,808 - root - INFO - successfully summarised 22 abstracts
+2025-03-23 17:59:32,808 - root - INFO - Executing action of type: Return
+2025-03-23 17:59:32,808 - root - INFO - Starting Output Structuring...
+2025-03-23 17:59:32,808 - root - INFO - Agent: Executed actions successfully

@@ -1,0 +1,4 @@
+- goto: https://arxiv.org/search/?query=grpo&searchtype=all&source=header
+- extract title, authors, and links
+- summarise abstracts
+- Return the data in a structured format: ```{"papers": {"title": "{title}", "authors": "{authors}", "link": "{link}", "summary": "{summary}"}}```

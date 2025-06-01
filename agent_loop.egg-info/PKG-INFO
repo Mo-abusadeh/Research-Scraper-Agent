@@ -1,0 +1,59 @@
+Metadata-Version: 2.4
+Name: agent-loop
+Version: 0.1.0
+Summary: AI agent that follows instructions
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: google-generativeai
+Requires-Dist: llama-cpp-python
+Requires-Dist: huggingface_hub
+
+# Frontier-Agent-TakeHome
+Mohammed AbuSadeh - Submission for the Frontier Health Take Home Test (Applied AI Engineer)
+
+Error Handling (DONE): 
+Function in instruction_parser: parse_file
+
+Unit Tests (DONE): 
+
+Assumptions: 
+- The input text is styled such that - starts a new line with a new action to be done
+POTENTIAL - There could be a typo in the input message of the "Return" action field (specifically in authors -no quotations-)
+- (in items_extractor.py) The HTML structure matches the selectors used in the code (e.g., .list-title, .list-authors, a.abstract-link, p.abstract). If the structure changes, the selectors will need to be updated.
+- GEMINI_API_KEY is saved as an environment variable or else the user must change the input of the instantiation of the file.
+- This project supports the use of external modules as long as the method outputs sustain the same structure
+
+
+Uses of LLM: 
+- General Project plan, Engineering Decisions (BE MORE SPECIFIC ON WHAT YOU STARTED WITH vs WHAT WAS USED)
+- Instructions on how to use the re library
+- Gave a detailed instructions of the design decisions I have taken for my project, and the different modules, and asked it to output me a description of the methods I should be implementing in each corresponding class
+- Asked it where would the optimal places be in my code to place error handling
+- asked it to generate me the "Testing Usage" if __name__ == "__main__": parts of each file, just to test every file content before integration and building the proper unit tests
+
+Uses of online Resources: 
+- Used the gemini instructions page to help me in generating structured output from using the Gemini API
+- Used the Gemini flash lite model since it is made for small easy tasks
+
+
+Things to check for: 
+-  DOUBLE QUOTATIONS EVERYWHERE
+- using s instead of z: Summarise instead of summarize (check where this compatibility is accounted for)
+- Label all the methods with """ Args:xxx Returns:xxx Raises:xxx"""
+- Add type hints for every method (Using Typing for return type)
+- Add logging to instruction_parser.py
+- Check for optional initialisation in innit functions for each class
+
+Things to read more on: 
+- web_scraper: connection reuse
+- Why llama-2-7b-chat.gguf
+
+
+Environment Variables
+GEMINI_API_KEY = Find it in Notion
+
+
+
