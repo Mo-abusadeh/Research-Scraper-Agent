@@ -13,8 +13,8 @@ The Agent workflow follows a user-provided text input asking to perform 4 action
   
 ## Main Project Structure
 Research-Scraper-Agent/  <br />
-├── agent.py                 # Main entry point for the agent workflow <br />   
-├── instruction_parser.py    # Parses user-provided instructions into structured actions <br />   
+├── agent.py                 # Main entry point for the agent workflow   <br />   
+├── instruction_parser.py    # Parses user-provided instructions into structured actions   <br />   
 ├── Controller.py            # Orchestrates the execution of parsed instructions  <br />
 ├── web_scraper.py           # Handles web scraping tasks (fetching and parsing web pages)  <br />
 ├── items_extractor.py       # Extracts specific data (titles, authors, links, abstracts) from web pages  <br />
