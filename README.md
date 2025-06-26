@@ -125,7 +125,7 @@ In this system, the default model inference is done on Google's Gemini via API c
 The fallback alternative to Gemini is the use of **llama-cpp-python** locally on the machine by downloading a quantised small Llama model from the HuggingFace Hub. The model llama-2-7b-chat.gguf is used for its smaller size (7 billion parameters) and its robustness at handling a simple task such as summarising the abstracts of the papers on the webiste. One third and last fallback mechanism is also implemented just in case neither models work properly, and this method would just retrieve the first couple of sentences from the abstract instead of its summary.
 
 1. Google's Gemini API (Default if API key is provided)
-- Uses the Gemini-
+- Uses the Gemini-2.0-flash-lite model
 - Requires an API key from Google AI Studio
 - Much Faster inference time
 - Higher quality summarisations
